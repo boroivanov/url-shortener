@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import lib.dynamo as dynamo
 
-table = 'short_urls'
+table = 'url-shortener-tokens'
 
 
 def handler(event, context):

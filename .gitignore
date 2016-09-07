@@ -1,3 +1,4 @@
 **/*.pyc
 **/modules
 project.json
+*tfstate*
