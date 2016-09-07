@@ -1,0 +1,4 @@
+{
+  "name": "url-shortener",
+  "role": "arn:aws:iam::{{ AWS_ACCOUNT_ID }}:role/url-shortener-lambda-role"
+}
