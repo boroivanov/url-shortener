@@ -1,0 +1,11 @@
+{
+  "name": "get-token",
+  "description": "Get URL token",
+  "runtime": "python2.7",
+  "handler": "main.handler",
+  "memory": 128,
+  "timeout": 10,
+  "hooks": {
+    "build": "./setup.sh"
+  }
+}
