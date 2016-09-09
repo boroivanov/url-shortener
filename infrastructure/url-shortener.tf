@@ -17,10 +17,10 @@ resource "aws_dynamodb_table" "url-shortener-envs" {
   name           = "url-shortener-envs"
   read_capacity  = 1
   write_capacity = 1
-  hash_key       = "name"
+  hash_key       = "key"
 
   attribute {
-    name = "name"
+    name = "key"
     type = "S"
   }
 }
