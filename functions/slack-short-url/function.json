@@ -1,0 +1,11 @@
+{
+  "name": "slack-short-url",
+  "description": "Create or Search short URLs in slack",
+  "runtime": "python2.7",
+  "handler": "main.handler",
+  "memory": 128,
+  "timeout": 10,
+  "hooks": {
+    "build": "./setup.sh"
+  }
+}
